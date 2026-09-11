@@ -1,3 +1,7 @@
+:root {
+  --color-accent: #3e6488;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -53,8 +57,14 @@ body {
 #portfolio-header-text-container {
   display: flex;
   flex-direction: column;
-  gap: 34px;
+  gap: 15px;
   flex-basis: 50%;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 
@@ -66,6 +76,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  border-left: 4px solid var(--color-accent);
+  padding-left: 32px;
 }
 
 .about-section-content {
@@ -133,6 +145,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  border-left: 4px solid var(--color-accent);
+  padding-left: 32px;
 }
 
 .project-details-content {
@@ -218,6 +232,3 @@ body {
     max-width: 100%;
   }
 }
-
-
-

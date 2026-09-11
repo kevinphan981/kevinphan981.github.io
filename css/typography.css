@@ -25,6 +25,7 @@ body {
 .subheader-text {
   font-size: 20px;
   font-weight: 700;
+  color: var(--color-accent);
 }
 
 .body-text {
@@ -37,6 +38,7 @@ body {
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 4;
+  line-clamp: 4;
   -webkit-box-orient: vertical;
 }
 
@@ -45,5 +47,6 @@ body {
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 1;
+  line-clamp: 1;
   -webkit-box-orient: vertical;
 }
